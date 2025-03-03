@@ -1,0 +1,1 @@
+replicaCount: 1\nimage:\n  repository: myrepo/my-app\n  tag: latest
