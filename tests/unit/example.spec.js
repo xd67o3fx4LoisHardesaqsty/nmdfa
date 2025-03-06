@@ -1,0 +1,1 @@
+import { mount } from '@vue/test-utils'\nimport HelloWorld from '@/components/HelloWorld.vue'\n\ndescribe('HelloWorld', () => {\n  it('renders props.msg when passed', () => {\n    const msg = 'new message'\n    const wrapper = mount(HelloWorld, { props: { msg } })\n    expect(wrapper.text()).toMatch(msg)\n  })\n})
